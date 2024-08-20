@@ -38,7 +38,7 @@ tmp/
 !.yarn/plugins/@yarnpkg/plugin-postinstall.cjs
 .fleet/
 example-app*/
-base-*/
+#base-*/
 test-*.json
 !starters/apps/base-*/
 qr.svg
