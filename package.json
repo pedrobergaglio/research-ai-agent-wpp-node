@@ -34,13 +34,12 @@
     "builderbot"
   ],
   "contributors": [
-    {
-      "email": "leifer33@gmail.com",
-      "name": "Leifer Mendez",
-      "url": "https://leifermendez.github.io"
-    }
+    "Leifer Mendez <leifer33@gmail.com> (https://leifermendez.github.io)"
   ],
-  "repository": "https://github.com/leifermendez/bot-whatsapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leifermendez/bot-whatsapp.git"
+  },
   "license": "ISC",
   "workspaces": [
     "packages/bot",
@@ -97,5 +96,9 @@
     "yarn": "please-use-pnpm",
     "pnpm": ">=8.6.12"
   },
-  "author": "Leifer Mendez <leifer.contacto@gmail.com>"
+  "author": "Leifer Mendez <leifer.contacto@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/leifermendez/bot-whatsapp/issues"
+  },
+  "homepage": "https://github.com/leifermendez/bot-whatsapp#readme"
 }
